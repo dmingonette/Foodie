@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/text_title_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foodie"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+
+    <!-- Subtítulo -->
+    <TextView
+        android:id="@+id/text_subtitle_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nos alegra que vuelvas a elegirnos"
+        android:textSize="25sp"
+        android:textColor="#666666"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Campo de correo electrónico -->
+    <EditText
+        android:id="@+id/email_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo electrónico"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Campo de contraseña -->
+    <EditText
+        android:id="@+id/password_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Recuperar contraseña -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recuperar contraseña"
+        android:textColor="#4285F4"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp">
+
+        <!-- Botón "Ingresar" -->
+        <Button
+            android:id="@+id/button_access"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:text="Ingresar"/>
+
+        <!-- Botón "Ingresar con Google" -->
+        <Button
+            android:id="@+id/button_access_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:text="Ingresar con Google" />
+
+    </LinearLayout>
+
+    <!-- Texto "No tenes cuenta?" -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿No tienes cuenta?"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Link "Registrate ahora" -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regístrate ahora"
+        android:textColor="#4285F4"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
