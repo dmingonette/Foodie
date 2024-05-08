@@ -23,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="¡Descubre un mundo de recetas!"
+        android:textColor="@color/purple"
         android:textSize="25sp"
         android:textStyle="bold"
         android:layout_below="@id/text_title_main"
@@ -55,15 +56,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Registrarme"
+            android:textColor="@color/colorText"
+            android:background="@drawable/rounded_button"
+            android:layout_marginEnd="16dp"
+            android:padding="10dp"/>
 
-            android:layout_marginEnd="16dp"/>
 
         <!-- Añade el login botón -->
         <Button
             android:id="@+id/button_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Iniciar sesión"/>
+            android:text="Iniciar sesión"
+            android:textColor="@color/colorText"
+            android:background="@drawable/rounded_button"
+            android:padding="10dp"/>
+
     </LinearLayout>
 
     <FrameLayout

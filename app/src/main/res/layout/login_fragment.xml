@@ -50,30 +50,21 @@
         android:textColor="#4285F4"
         android:layout_marginTop="8dp"/>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
+      <!-- Botón "Ingresar" -->
+    <Button
+        android:id="@+id/button_access"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:orientation="horizontal"
-        android:layout_marginTop="24dp">
+        android:background="@drawable/rounded_button"
+        android:text="Ingresar" />
 
-        <!-- Botón "Ingresar" -->
-        <Button
-            android:id="@+id/button_access"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/rounded_button"
-            android:text="Ingresar"/>
-
-        <!-- Botón "Ingresar con Google" -->
-        <Button
-            android:id="@+id/button_access_google"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/rounded_button"
-            android:text="Ingresar con Google" />
-
-    </LinearLayout>
+    <!-- Botón "Ingresar con Google" -->
+    <Button
+        android:id="@+id/button_access_google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:text="Ingresar con Google" />
 
     <!-- Texto "No tenes cuenta?" -->
     <TextView
